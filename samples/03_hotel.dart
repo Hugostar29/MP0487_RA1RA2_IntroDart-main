@@ -7,8 +7,8 @@ void main() {
   List<String> roomTypes = ["Single", "Double", "Suite", "Double", "Penthouse"];
   List<double> nightlyRates = [75.0, 120.0, 250.0, 130.0, 500.0];
   List<bool> isOccupied = [false, true, false, false, true];
-  List<String> guestNames = ["None", "Alice Smith", "None", "None", "Bob Jones"];
-
+  List  <String> guestNames = ["None", "Alice Smith", "None", "None", "Bob Jones"];
+  bool hola;
   bool operational = true;
 
   print(HotelConfig.welcomeMsg);
